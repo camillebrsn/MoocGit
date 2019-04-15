@@ -21,7 +21,7 @@ def diff_list(liste1, liste2):
     for elem in liste1:
         if elem not in liste2:
             out.append(elem)
-    for elem in list2:
+    for elem in liste2:
         if elem not in liste1:
             out.append(elem)
     return out
